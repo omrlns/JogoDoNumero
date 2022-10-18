@@ -1,3 +1,6 @@
+/*eis aqui o meu maior problema, a parte bonita do programa*/
+/*lembrar de vir aqui e alterar as possibilidades*/
+
 
 * {
   margin: 0;
@@ -15,12 +18,12 @@ body {
   background-color: #222;
 }
 
-/* LAYOUT */
+/* plano de layout */
 header {
   position: relative;
   height: 40vh;
   border-bottom: 7px solid #eee;
-  color: blue;
+  color: white; /*preto? não, branco e azul ficam melhores*/
 }
 
 main {
@@ -43,7 +46,7 @@ main {
   font-size: 2rem;
 }
 
-/* ELEMENTS STYLE */
+/* elementos de custumozização */
 h1 {
   font-size: 4rem;
   text-align: center;
@@ -98,7 +101,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: rgb(54, 54, 248);
+  background-color: rgb(48, 48, 169);
 }
 
 .left .check {
@@ -125,3 +128,6 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/*degradê de cores escuras?*/
+/*estrutura de cores, como que faz? parte de trás do arquivo, o que fazer?*/
